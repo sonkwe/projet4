@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#faebd762;
+}
+.main_doc{
+    margin-left: 20vw;
+}
+nav{
+    position: fixed;
+    width: 19vw;
+    height: 100vh;
+    overflow: scroll;
+    line-height: 60px;
+    border-right: solid;
+
+}
+section{
+    margin-top: 30px ;
+}
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+header img{
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav li{
+    list-style-type: none;
+}
+.menu{
+    border: 1px;
+    padding-left: 25px;
+}
+.titre{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.footer{
+    background-color: #b5b5b5;
+    height: 0px;
+    padding-right: 0px;
+    margin-top: 70px;
+    width: 100%;
+}
+.partie1{
+    display: flex;
+    background-color: #b5b5b5;
+    margin-left: 250px;
+    margin-left: 250px;
+    padding-top: 20px;
+}
+.adresse{
+      margin-right: 150px;
+      padding-left: 20px;
+}
+.partie2{
+    display: flex;
+    background-color:#b5b5b5;
+    margin-left: 250px;
+}
+.code{
+    margin-right: 100px;
+}
+.site li{
+    list-style-type: none;
+}
+.copyright{
+    height: 70px;
+    text-align: center;
+    background-color: black;
+     margin-left: 250px; 
+     color: blue;
+}
+.document{
+    color: blue;
+}
+.thanks{
+    display: flex;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    background-color:  #b5b5b5;
+    padding-left: 50px;
+}
+.mb img{
+    width: 100%;
+    width: 70px;
+}
+.app-logo img{
+    width: 140px;
+}
+.merci{
+    position: relative;
+    left: 200px;
+}
+.mb{
+    padding-left: 100px;
+}
+.mb h3{
+    color: blue;
+}
